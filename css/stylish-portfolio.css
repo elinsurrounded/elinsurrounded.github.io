@@ -14,6 +14,13 @@ body {
   font-family: 'Source Sans Pro';
 }
 
+.text-shadow {
+  text-shadow: 2px 2px #fafafa;
+}
+.text-shadow-blur {
+  text-shadow: 0 0 5px #fafafa;
+}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
@@ -93,7 +100,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/photo5204201874335576123.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -142,7 +149,7 @@ h6 {
   color: #fff;
   padding: 15px;
 }
-
+#e2dfde
 .sidebar-nav li a:hover {
   text-decoration: none;
   color: #fff;
@@ -303,6 +310,7 @@ h6 {
 }
 
 footer.footer {
+  background: #e2dfde;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
